@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/HomeControlSystem?createDatabaseIfNotExist=true
+    username: root
+    password: Vishal@2001
+    driver-class: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    properties.hibernate-dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    generate-ddl: true
+    show-sql: true
+    hibernate.globally_quoted_identifiers: true
+
+
+  devtools:
+    restart:
+      enabled: true
+    livereload:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  info:
+    env:
+      enabled:true
+        
+info:
+  app:
+    description: This application
+    name: Smart Devices
+    version: 1.0
