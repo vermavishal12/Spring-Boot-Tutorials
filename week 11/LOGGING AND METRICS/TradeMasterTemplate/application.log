@@ -1,0 +1,22 @@
+2024-02-17T14:55:10.324+05:30  INFO 7552 --- [main] c.cn.trademaster.TradeMasterApplication  : Starting TradeMasterApplication using Java 17.0.9 with PID 7552 (C:\Users\Vishal\OneDrive\Desktop\CodingNinja\TradeMasterTemplate\target\classes started by Vishal in C:\Users\Vishal\OneDrive\Desktop\CodingNinja\TradeMasterTemplate)
+2024-02-17T14:55:10.326+05:30 DEBUG 7552 --- [main] c.cn.trademaster.TradeMasterApplication  : Running with Spring Boot v3.0.0, Spring v6.0.2
+2024-02-17T14:55:10.326+05:30  INFO 7552 --- [main] c.cn.trademaster.TradeMasterApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-02-17T14:55:10.929+05:30  INFO 7552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-17T14:55:11.005+05:30  INFO 7552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2024-02-17T14:55:11.650+05:30  INFO 7552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-17T14:55:11.662+05:30  INFO 7552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-17T14:55:11.662+05:30  INFO 7552 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-02-17T14:55:11.768+05:30  INFO 7552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-17T14:55:11.768+05:30  INFO 7552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1372 ms
+2024-02-17T14:55:11.912+05:30  INFO 7552 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-17T14:55:11.957+05:30  INFO 7552 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2024-02-17T14:55:12.107+05:30  WARN 7552 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-02-17T14:55:12.230+05:30  INFO 7552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-17T14:55:12.519+05:30  INFO 7552 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@591be8aa
+2024-02-17T14:55:12.521+05:30  INFO 7552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-17T14:55:12.575+05:30  INFO 7552 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-02-17T14:55:13.269+05:30  INFO 7552 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-17T14:55:13.274+05:30  INFO 7552 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-17T14:55:13.570+05:30  WARN 7552 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-17T14:55:13.870+05:30  INFO 7552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-17T14:55:13.877+05:30  INFO 7552 --- [main] c.cn.trademaster.TradeMasterApplication  : Started TradeMasterApplication in 3.997 seconds (process running for 4.291)
